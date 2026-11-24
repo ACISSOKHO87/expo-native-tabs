@@ -11,10 +11,14 @@ export default function RootLayout() {
                 {/* Icon: The icon displayed in the tab bar item. */}
                 {/* Icon with original colors preserved (e.g., for gradient or multi-color icons) */}
                 <NativeTabs.Trigger.Icon
-                    // sf={{ default: "house", selected: "house.fill" }}
-                    // md={{ default: "home", selected: "home_filled" }}
-                    src={homeIcon}
-                    renderingMode="original"
+                    sf={{ default: "house", selected: "house.fill" }}
+                    md={{ default: "home", selected: "home_filled" }}
+                    renderingMode={{
+                        default: "template",
+                        selected: "original",
+                    }}
+                    // src={homeIcon}
+                    // renderingMode="original"
                 />
             </NativeTabs.Trigger>
             <NativeTabs.Trigger name="settings">

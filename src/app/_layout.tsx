@@ -4,7 +4,7 @@ const settingIcon = require("@/assets/images/setting.png");
 
 export default function RootLayout() {
     return (
-        <NativeTabs>
+        <NativeTabs backgroundColor="#fff" tintColor="#0F172A">
             <NativeTabs.Trigger name="index">
                 {/* Label: The label displayed in the tab bar item. */}
                 <NativeTabs.Trigger.Label>Home</NativeTabs.Trigger.Label>

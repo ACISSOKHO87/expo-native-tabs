@@ -38,7 +38,7 @@ This command will move the starter code to the **example** directory and create 
 ## tabs et customizing tab bar items
 
 ```javascript
-<NativeTabs>
+<NativeTabs backgroundColor="#fff" tintColor="#0F172A">
     <NativeTabs.Trigger name="index">
         {/* Label: The label displayed in the tab bar item. */}
         <NativeTabs.Trigger.Label>Home</NativeTabs.Trigger.Label>
